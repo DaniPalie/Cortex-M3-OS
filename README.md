@@ -6,15 +6,12 @@ own bootloader, own reset handler, own scheduler, own contiguous
 allocator, own blocking mutex.
 
 Course project for *Operating Systems* (M.Sc. Electronic Engineering,
-Politecnico di Torino), developed in a team of two.
+Politecnico di Torino).
 
 > **Scope of this repository.** This is the OS core I wrote
 > (phases 1–7: boot and UART bring-up, two-stage boot with VTOR
 > relocation, shell, round-robin scheduler with PendSV context switch,
-> first-fit allocator, LDREX/STREX mutex). The initial project skeleton
-> is by [Thomas Vitale](https://github.com/thomas-vitale), who later
-> extended the team version with adaptive priority scheduling and
-> priority inheritance — those extensions are not included here.
+> first-fit allocator, LDREX/STREX mutex). 
 
 ---
 
